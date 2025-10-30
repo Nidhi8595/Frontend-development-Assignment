@@ -3,9 +3,5 @@
   "installCommand": "npm install --legacy-peer-deps",
   "framework": "vite",
   "outputDirectory": "dist",
-  "functions": {
-    "api/**": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "nodeVersion": "18.x"
 }
